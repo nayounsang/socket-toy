@@ -1,11 +1,12 @@
-import { createServer } from "https";
+import { createServer } from "http";
 import { Server } from "socket.io";
 import { readFileSync } from "fs";
 
-const server = createServer({
-  key: readFileSync('key.pem'),
-  cert: readFileSync('cert.pem')
-});
+// const server = createServer({
+//   key: readFileSync('key.pem'),
+//   cert: readFileSync('cert.pem')
+// });
+const server = createServer();
 
 const port = 3000;
 const io = new Server(server, {
