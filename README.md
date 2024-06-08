@@ -1,7 +1,7 @@
 # Socket-toy
 ## Branch
 ### main
-* default branch uses wss protocol
+* default branch uses ws protocol
 ### wss
 * project using wss protocol, same with main
 ### ws
