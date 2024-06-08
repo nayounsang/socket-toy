@@ -3,7 +3,7 @@
 ### main
 * default branch uses ws protocol
 ### wss
-* project using wss protocol, same with main
+* project using wss protocol
 ### ws
 * project using ws protocol
 ## How to 
